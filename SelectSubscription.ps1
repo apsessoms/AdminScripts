@@ -1,2 +1,2 @@
 Set-AzContext 
-# After context writ the name of the subscription you want to change to. "BLM_dev_1"
+# After context write the name of the subscription you want to change to. "Sandbox"
