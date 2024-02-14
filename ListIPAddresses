@@ -1,0 +1,4 @@
+Get-CimInstance -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=$true |
+    Select-Object -ExpandProperty IPAddress
+
+# This will give you all IP addresses in use on the local computer. 
